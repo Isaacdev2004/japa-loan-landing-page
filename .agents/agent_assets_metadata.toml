@@ -1,5 +1,10 @@
 uploads = []
-generated = []
+
+[[generated]]
+id = "GEsM_9xBNXJTwFEa7_lmC"
+uri = "file://artifacts/japa-loan/public/images/hero.png"
+type = "image"
+title = "japa-loan-hero"
 
 [[outputs]]
 id = "79TOvsN6SyNsXTtJNX39H"

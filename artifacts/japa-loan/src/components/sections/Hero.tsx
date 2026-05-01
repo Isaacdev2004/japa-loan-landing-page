@@ -45,11 +45,11 @@ export function Hero() {
             </motion.div>
             
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-white rounded-full h-14 px-8 text-base shadow-lg shadow-accent/20 transition-transform hover:-translate-y-1">
-                Get Your Japa Loan <ArrowRight className="ml-2 w-5 h-5" />
+              <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-white rounded-full h-14 px-8 text-base shadow-lg shadow-accent/20 transition-transform hover:-translate-y-1">
+                <a href="#apply">Get Your Japa Loan <ArrowRight className="ml-2 w-5 h-5" /></a>
               </Button>
-              <Button size="lg" variant="outline" className="rounded-full h-14 px-8 text-base border-primary/20 hover:bg-primary/5 transition-transform hover:-translate-y-1">
-                Calculate Repayment
+              <Button size="lg" variant="outline" asChild className="rounded-full h-14 px-8 text-base border-primary/20 hover:bg-primary/5 transition-transform hover:-translate-y-1">
+                <a href="#calculator">Calculate Repayment</a>
               </Button>
             </motion.div>
 
@@ -78,8 +78,8 @@ export function Hero() {
           >
             <div className="absolute inset-0 bg-primary/10 mix-blend-multiply z-10 rounded-3xl"></div>
             <img 
-              src="/images/hero.jpg" 
-              alt="Nigerian professional at the airport ready to travel" 
+              src="/images/hero.png" 
+              alt="Nigerian professional ready to travel abroad with Japa Loan" 
               className="w-full h-full object-cover rounded-3xl"
             />
             

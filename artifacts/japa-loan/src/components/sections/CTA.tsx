@@ -25,11 +25,13 @@ export function CTA() {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-white rounded-full h-14 px-8 text-base shadow-xl shadow-accent/20 transition-transform hover:-translate-y-1">
-              Apply Now <ArrowRight className="ml-2 w-5 h-5" />
+            <Button size="lg" asChild className="bg-accent hover:bg-accent/90 text-white rounded-full h-14 px-8 text-base shadow-xl shadow-accent/20 transition-transform hover:-translate-y-1">
+              <a href="#apply">Apply Now <ArrowRight className="ml-2 w-5 h-5" /></a>
             </Button>
-            <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 text-primary-foreground border-primary-foreground/20 rounded-full h-14 px-8 text-base transition-transform hover:-translate-y-1">
-              <MessageCircle className="mr-2 w-5 h-5" /> Chat on WhatsApp
+            <Button size="lg" variant="outline" asChild className="bg-white/10 hover:bg-white/20 text-primary-foreground border-primary-foreground/20 rounded-full h-14 px-8 text-base transition-transform hover:-translate-y-1">
+              <a href="https://wa.me/2347032513433" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2 w-5 h-5" /> Chat on WhatsApp
+              </a>
             </Button>
           </div>
         </motion.div>

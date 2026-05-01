@@ -6,6 +6,7 @@ import { HowItWorks } from '@/components/sections/HowItWorks';
 import { Calculator } from '@/components/sections/Calculator';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { FAQ } from '@/components/sections/FAQ';
+import { ApplyForm } from '@/components/sections/ApplyForm';
 import { CTA } from '@/components/sections/CTA';
 import { Footer } from '@/components/sections/Footer';
 import { FloatingWhatsApp } from '@/components/sections/FloatingWhatsApp';
@@ -22,6 +23,7 @@ export default function LandingPage() {
         <Calculator />
         <Testimonials />
         <FAQ />
+        <ApplyForm />
         <CTA />
       </main>
       <Footer />

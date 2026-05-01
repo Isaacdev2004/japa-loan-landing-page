@@ -21,6 +21,7 @@ export function Navbar() {
     { name: 'How it Works', href: '#how-it-works' },
     { name: 'Calculator', href: '#calculator' },
     { name: 'FAQ', href: '#faq' },
+    { name: 'Apply', href: '#apply' },
   ];
 
   return (
@@ -49,9 +50,10 @@ export function Navbar() {
             ))}
           </ul>
           <Button 
+            asChild
             className="bg-accent hover:bg-accent/90 text-white rounded-full px-6 shadow-md shadow-accent/20 transition-all hover:shadow-lg hover:shadow-accent/30 hover:-translate-y-0.5"
           >
-            Apply Now
+            <a href="#apply">Apply Now</a>
           </Button>
         </nav>
 
@@ -87,8 +89,8 @@ export function Navbar() {
                   </li>
                 ))}
               </ul>
-              <Button className="bg-accent hover:bg-accent/90 text-white w-full rounded-full mt-2">
-                Apply Now <ChevronRight className="w-4 h-4 ml-1" />
+              <Button asChild className="bg-accent hover:bg-accent/90 text-white w-full rounded-full mt-2">
+                <a href="#apply" onClick={() => setIsMobileMenuOpen(false)}>Apply Now <ChevronRight className="w-4 h-4 ml-1" /></a>
               </Button>
             </div>
           </motion.div>
