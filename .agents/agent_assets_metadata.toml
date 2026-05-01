@@ -1,0 +1,32 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "79TOvsN6SyNsXTtJNX39H"
+uri = "file://artifacts/japa-loan/public/images/hero.jpg"
+type = "image"
+title = "airport travel luggage passenger"
+
+[[outputs]]
+id = "fOewp5ln2bABmFmh2dnWP"
+uri = "file://artifacts/japa-loan/public/images/features.jpg"
+type = "image"
+title = "professional business person working laptop confident"
+
+[[outputs]]
+id = "ZQjeyBYYiDJ_FP7eD2OeQ"
+uri = "file://artifacts/japa-loan/public/images/testimonial-1.jpg"
+type = "image"
+title = "professional headshot young nigerian man smiling confidence"
+
+[[outputs]]
+id = "VM_qYQNunsUnioQs08Rch"
+uri = "file://artifacts/japa-loan/public/images/testimonial-2.jpg"
+type = "image"
+title = "professional headshot young nigerian woman business confident"
+
+[[outputs]]
+id = "OT_4u7Psg7LSkuKnCITss"
+uri = "file://artifacts/japa-loan/public/images/testimonial-3.jpg"
+type = "image"
+title = "professional headshot mature nigerian man smiling suit"
