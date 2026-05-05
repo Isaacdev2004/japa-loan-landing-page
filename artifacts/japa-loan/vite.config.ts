@@ -11,7 +11,11 @@ if (Number.isNaN(port) || port <= 0) {
   throw new Error(`Invalid PORT value: "${rawPort}"`);
 }
 
-/** Deploy at site root by default; set e.g. /repo-name/ for GitHub Pages subpaths. */
+/**
+ * Must match the URL path your host actually serves the app under.
+ * Render static site default URL is the domain root — leave BASE_PATH unset (uses "/").
+ * Only set BASE_PATH if the site is really under a subpath (e.g. GitHub Pages project site).
+ */
 const basePath = process.env.BASE_PATH ?? "/";
 
 export default defineConfig({
